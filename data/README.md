@@ -1,6 +1,6 @@
 # Data Collection
 
-Data was collected for 15 primary investigators awarded a grant as part of the IU Addictions Grand Challenge I grant process.
+Data was collected for 15 primary investigators awarded a grant as part of the Precision Health Initiative (PHI) Grand Challenge grant process.
 
 ## Web of Science Queries Used
 
