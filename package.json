@@ -13,7 +13,7 @@
   },
   "private": true,
   "dependencies": {
-    "cns-pubvis": ">=0.6.2 <1.0.0",
+    "cns-pubvis": ">=0.7.0 <1.0.0",
     "@angular/animations": "^6.1.8",
     "@angular/cdk": "^6.4.6",
     "@angular/common": "^6.1.8",
@@ -43,6 +43,7 @@
     "material-design-icons": "^3.0.1",
     "ng2-nouislider": "^1.7.12",
     "nouislider": "^11.1.0",
+    "papaparse": "^4.6.1",
     "rxjs": "^6.3.2",
     "typeface-lato": "0.0.54",
     "typescript-logging": "^0.6.2",
