@@ -1,9 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { CNSPubVisModule } from 'cns-pubvis';
+import { MarkdownModule } from 'ngx-markdown';
 
 import { AppComponent } from './app.component';
 
-import { CNSPubVisModule } from 'cns-pubvis';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { CNSPubVisModule } from 'cns-pubvis';
   ],
   imports: [
     BrowserModule,
-    CNSPubVisModule
+    CNSPubVisModule,
+    MarkdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

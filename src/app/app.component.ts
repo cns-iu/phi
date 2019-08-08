@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     fetch('assets/database.json').then(async (resp) => {
       const data = await resp.json();
-      this.databaseService.setDatabase(new MavPubDatabase(data));
+      this.databaseService.setDatabase(new MavPubDatabase(data, ['Indiana Univ']));
       setTimeout(() => {
         this.dataLoaded = true;
       }, 50);
