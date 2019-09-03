@@ -10,7 +10,7 @@
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
 <user_query_string><![CDATA[AU=(Borner, K*) AND OG=(Indiana University*)]]></user_query_string>
-<user_timespan_string><![CDATA[input.tslimit.ALL]]></user_timespan_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -20,7 +20,7 @@
 <service_mode></service_mode>
 <query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[AU=(Borner, K*) AND OG=(Indiana University*) ]]></preparsed>
+<preparsed><![CDATA[AU=(Borner, K*) AND OG=(Indiana University*)]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
@@ -28,11 +28,11 @@
 <oldQuerySyntax></oldQuerySyntax>
 <search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[AU=(Borner, K*) AND OG=(Indiana University*) ]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Borner, K*) AND OG=(Indiana University*)]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[AU=(Borner, K*) AND OG=(Indiana University*) ]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Borner, K*) AND OG=(Indiana University*)]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
+<options>[]</options>
 <user_query_string_xml><Field><![CDATA[AU=(Borner, K*) AND OG=(Indiana University*)]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
@@ -49,7 +49,7 @@
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
 <user_query_string><![CDATA[AU=(Radivojac, P*) AND OG=(Indiana University*)]]></user_query_string>
-<user_timespan_string><![CDATA[input.tslimit.ALL]]></user_timespan_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -59,7 +59,7 @@
 <service_mode></service_mode>
 <query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[AU=(Radivojac, P*) AND OG=(Indiana University*) ]]></preparsed>
+<preparsed><![CDATA[AU=(Radivojac, P*) AND OG=(Indiana University*)]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
@@ -67,11 +67,11 @@
 <oldQuerySyntax></oldQuerySyntax>
 <search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[AU=(Radivojac, P*) AND OG=(Indiana University*) ]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Radivojac, P*) AND OG=(Indiana University*)]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[AU=(Radivojac, P*) AND OG=(Indiana University*) ]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Radivojac, P*) AND OG=(Indiana University*)]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
+<options>[]</options>
 <user_query_string_xml><Field><![CDATA[AU=(Radivojac, P*) AND OG=(Indiana University*)]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
@@ -87,8 +87,8 @@
 <field_id></field_id>
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
-<user_query_string><![CDATA[AU=(Siek, K*) AND OG=(Indiana University* OR University of Colorado*)]]></user_query_string>
-<user_timespan_string><![CDATA[input.tslimit.ALL]]></user_timespan_string>
+<user_query_string><![CDATA[AU=(Siek, K*) AND OG=(Indiana University*)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -98,7 +98,7 @@
 <service_mode></service_mode>
 <query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[AU=(Siek, K*) AND OG=(Indiana University* OR University of Colorado*) ]]></preparsed>
+<preparsed><![CDATA[AU=(Siek, K*) AND OG=(Indiana University*)]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
@@ -106,12 +106,12 @@
 <oldQuerySyntax></oldQuerySyntax>
 <search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[AU=(Siek, K*) AND OG=(Indiana University* OR University of Colorado*) ]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Siek, K*) AND OG=(Indiana University*)]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[AU=(Siek, K*) AND OG=(Indiana University* OR University of Colorado*) ]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Siek, K*) AND OG=(Indiana University*)]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
-<user_query_string_xml><Field><![CDATA[AU=(Siek, K*) AND OG=(Indiana University* OR University of Colorado*)]]></Field></user_query_string_xml>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Siek, K*) AND OG=(Indiana University*)]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
 <ss_query_language><![CDATA[en]]></ss_query_language>
@@ -126,8 +126,8 @@
 <field_id></field_id>
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
-<user_query_string><![CDATA[AU=(Connelly, K*) AND (OG=(Indiana University*) OR (OG=(University of Illinois*) AND PY=(1998 OR 1999 OR 2000 OR 2001 OR 2002)))]]></user_query_string>
-<user_timespan_string><![CDATA[input.tslimit.ALL]]></user_timespan_string>
+<user_query_string><![CDATA[AU=(Connelly, K*) AND (OG=(Indiana University*))]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -137,7 +137,7 @@
 <service_mode></service_mode>
 <query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[AU=(Connelly, K*) AND (OG=(Indiana University*) OR (OG=(University of Illinois*) AND PY=(1998 OR 1999 OR 2000 OR 2001 OR 2002))) ]]></preparsed>
+<preparsed><![CDATA[AU=(Connelly, K*) AND (OG=(Indiana University*))]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
@@ -145,12 +145,12 @@
 <oldQuerySyntax></oldQuerySyntax>
 <search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[AU=(Connelly, K*) AND (OG=(Indiana University*) OR (OG=(University of Illinois*) AND PY=(1998 OR 1999 OR 2000 OR 2001 OR 2002))) ]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Connelly, K*) AND (OG=(Indiana University*))]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[AU=(Connelly, K*) AND (OG=(Indiana University*) OR (OG=(University of Illinois*) AND PY=(1998 OR 1999 OR 2000 OR 2001 OR 2002))) ]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Connelly, K*) AND (OG=(Indiana University*))]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
-<user_query_string_xml><Field><![CDATA[AU=(Connelly, K*) AND (OG=(Indiana University*) OR (OG=(University of Illinois*) AND PY=(1998 OR 1999 OR 2000 OR 2001 OR 2002)))]]></Field></user_query_string_xml>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Connelly, K*) AND (OG=(Indiana University*))]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
 <ss_query_language><![CDATA[en]]></ss_query_language>
@@ -165,8 +165,8 @@
 <field_id></field_id>
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
-<user_query_string><![CDATA[AU=(Fox, G*) AND OG=(Indiana University* OR Syracuse University OR Florida State University)]]></user_query_string>
-<user_timespan_string><![CDATA[input.tslimit.ALL]]></user_timespan_string>
+<user_query_string><![CDATA[AU=(Fox, G*) AND OG=(Indiana University*) NOT AU=(Fox, GE OR Fox, GB OR Fox, GR OR Fox, Gregory OR Fox, George)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -176,7 +176,7 @@
 <service_mode></service_mode>
 <query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[AU=(Fox, G*) AND OG=(Indiana University* OR Syracuse University OR Florida State University) ]]></preparsed>
+<preparsed><![CDATA[AU=(Fox, G*) AND OG=(Indiana University*) NOT AU=(Fox, GE OR Fox, GB OR Fox, GR OR Fox, Gregory OR Fox, George)]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
@@ -184,12 +184,12 @@
 <oldQuerySyntax></oldQuerySyntax>
 <search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[AU=(Fox, G*) AND OG=(Indiana University* OR Syracuse University OR Florida State University) ]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Fox, G*) AND OG=(Indiana University*) NOT AU=(Fox, GE OR Fox, GB OR Fox, GR OR Fox, Gregory OR Fox, George)]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[AU=(Fox, G*) AND OG=(Indiana University* OR Syracuse University OR Florida State University) ]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Fox, G*) AND OG=(Indiana University*) NOT AU=(Fox, GE OR Fox, GB OR Fox, GR OR Fox, Gregory OR Fox, George)]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
-<user_query_string_xml><Field><![CDATA[AU=(Fox, G*) AND OG=(Indiana University* OR Syracuse University OR Florida State University)]]></Field></user_query_string_xml>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Fox, G*) AND OG=(Indiana University*) NOT AU=(Fox, GE OR Fox, GB OR Fox, GR OR Fox, Gregory OR Fox, George)]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
 <ss_query_language><![CDATA[en]]></ss_query_language>
@@ -204,8 +204,8 @@
 <field_id></field_id>
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
-<user_query_string><![CDATA[AU=(Hahn, M*) AND OG=(Indiana University* OR Duke University OR Cornell University)]]></user_query_string>
-<user_timespan_string><![CDATA[2000-2018]]></user_timespan_string>
+<user_query_string><![CDATA[AU=(Hahn, M*) AND OG=(Indiana University*) NOT AU=(Hahn, MA OR Hahn, Michael OR Hahn, ME)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -215,7 +215,7 @@
 <service_mode></service_mode>
 <query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[AU=(Hahn, M*) AND OG=(Indiana University* OR Duke University OR Cornell University) ]]></preparsed>
+<preparsed><![CDATA[AU=(Hahn, M*) AND OG=(Indiana University*) NOT AU=(Hahn, MA OR Hahn, Michael OR Hahn, ME)]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
@@ -223,12 +223,12 @@
 <oldQuerySyntax></oldQuerySyntax>
 <search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[AU=(Hahn, M*) AND OG=(Indiana University* OR Duke University OR Cornell University) ]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Hahn, M*) AND OG=(Indiana University*) NOT AU=(Hahn, MA OR Hahn, Michael OR Hahn, ME)]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[AU=(Hahn, M*) AND OG=(Indiana University* OR Duke University OR Cornell University) ]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Hahn, M*) AND OG=(Indiana University*) NOT AU=(Hahn, MA OR Hahn, Michael OR Hahn, ME)]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
-<user_query_string_xml><Field><![CDATA[AU=(Hahn, M*) AND OG=(Indiana University* OR Duke University OR Cornell University)]]></Field></user_query_string_xml>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Hahn, M*) AND OG=(Indiana University*) NOT AU=(Hahn, MA OR Hahn, Michael OR Hahn, ME)]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
 <ss_query_language><![CDATA[en]]></ss_query_language>
@@ -243,8 +243,8 @@
 <field_id></field_id>
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
-<user_query_string><![CDATA[AU=(Natarajan, S*) AND OG=(Indiana University* OR University of Texas Dallas OR Oregon State University* OR Wake Forest University* OR University of Wisconsin Madison)]]></user_query_string>
-<user_timespan_string><![CDATA[input.tslimit.ALL]]></user_timespan_string>
+<user_query_string><![CDATA[AU=(Natarajan, S*) AND OG=(Indiana University*) NOT AU=(Natarajan, SK OR Natarajan, Sivakumar)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -254,7 +254,7 @@
 <service_mode></service_mode>
 <query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[AU=(Natarajan, S*) AND OG=(Indiana University* OR University of Texas Dallas OR Oregon State University* OR Wake Forest University* OR University of Wisconsin Madison) ]]></preparsed>
+<preparsed><![CDATA[AU=(Natarajan, S*) AND OG=(Indiana University*) NOT AU=(Natarajan, SK OR Natarajan, Sivakumar)]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
@@ -262,12 +262,12 @@
 <oldQuerySyntax></oldQuerySyntax>
 <search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[AU=(Natarajan, S*) AND OG=(Indiana University* OR University of Texas Dallas OR Oregon State University* OR Wake Forest University* OR University of Wisconsin Madison) ]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Natarajan, S*) AND OG=(Indiana University*) NOT AU=(Natarajan, SK OR Natarajan, Sivakumar)]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[AU=(Natarajan, S*) AND OG=(Indiana University* OR University of Texas Dallas OR Oregon State University* OR Wake Forest University* OR University of Wisconsin Madison) ]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Natarajan, S*) AND OG=(Indiana University*) NOT AU=(Natarajan, SK OR Natarajan, Sivakumar)]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
-<user_query_string_xml><Field><![CDATA[AU=(Natarajan, S*) AND OG=(Indiana University* OR University of Texas Dallas OR Oregon State University* OR Wake Forest University* OR University of Wisconsin Madison)]]></Field></user_query_string_xml>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Natarajan, S*) AND OG=(Indiana University*) NOT AU=(Natarajan, SK OR Natarajan, Sivakumar)]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
 <ss_query_language><![CDATA[en]]></ss_query_language>
@@ -282,8 +282,8 @@
 <field_id></field_id>
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
-<user_query_string><![CDATA[AU=(Sahinalp, C*) AND OG=(Indiana University* OR Ihsan Dogramaci Bilkent University OR University of Maryland* OR Simon Fraser University)]]></user_query_string>
-<user_timespan_string><![CDATA[input.tslimit.ALL]]></user_timespan_string>
+<user_query_string><![CDATA[AU=(Sahinalp, C*) AND OG=(Indiana University*)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -293,7 +293,7 @@
 <service_mode></service_mode>
 <query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[AU=(Sahinalp, C*) AND OG=(Indiana University* OR Ihsan Dogramaci Bilkent University OR University of Maryland* OR Simon Fraser University) ]]></preparsed>
+<preparsed><![CDATA[AU=(Sahinalp, C*) AND OG=(Indiana University*)]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
@@ -301,12 +301,12 @@
 <oldQuerySyntax></oldQuerySyntax>
 <search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[AU=(Sahinalp, C*) AND OG=(Indiana University* OR Ihsan Dogramaci Bilkent University OR University of Maryland* OR Simon Fraser University) ]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Sahinalp, C*) AND OG=(Indiana University*)]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[AU=(Sahinalp, C*) AND OG=(Indiana University* OR Ihsan Dogramaci Bilkent University OR University of Maryland* OR Simon Fraser University) ]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Sahinalp, C*) AND OG=(Indiana University*)]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
-<user_query_string_xml><Field><![CDATA[AU=(Sahinalp, C*) AND OG=(Indiana University* OR Ihsan Dogramaci Bilkent University OR University of Maryland* OR Simon Fraser University)]]></Field></user_query_string_xml>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Sahinalp, C*) AND OG=(Indiana University*)]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
 <ss_query_language><![CDATA[en]]></ss_query_language>
@@ -322,7 +322,7 @@
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
 <user_query_string><![CDATA[AU=(Ye, YZ) AND OG=(Indiana University*)]]></user_query_string>
-<user_timespan_string><![CDATA[input.tslimit.ALL]]></user_timespan_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -332,7 +332,7 @@
 <service_mode></service_mode>
 <query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[AU=(Ye, YZ) AND OG=(Indiana University*) ]]></preparsed>
+<preparsed><![CDATA[AU=(Ye, YZ) AND OG=(Indiana University*)]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
@@ -340,11 +340,11 @@
 <oldQuerySyntax></oldQuerySyntax>
 <search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[AU=(Ye, YZ) AND OG=(Indiana University*) ]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Ye, YZ) AND OG=(Indiana University*)]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[AU=(Ye, YZ) AND OG=(Indiana University*) ]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Ye, YZ) AND OG=(Indiana University*)]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
+<options>[]</options>
 <user_query_string_xml><Field><![CDATA[AU=(Ye, YZ) AND OG=(Indiana University*)]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
@@ -360,8 +360,8 @@
 <field_id></field_id>
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
-<user_query_string><![CDATA[AU=(Tang, H*) AND OG=(Indiana University*)]]></user_query_string>
-<user_timespan_string><![CDATA[input.tslimit.ALL]]></user_timespan_string>
+<user_query_string><![CDATA[AU=(Tang, H*) AND OG=(Indiana University*) NOT AU=(Tang, Hao OR Tang, Haiyang OR Tang, Huilin OR Tang, Hui-Hsuan OR Tang, Hong OR Tang, HT OR Tang, HY OR Tang, Hua OR Tang, HM, OR Tang, HL OR Tang, HB)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -371,7 +371,7 @@
 <service_mode></service_mode>
 <query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[AU=(Tang, H*) AND OG=(Indiana University*) ]]></preparsed>
+<preparsed><![CDATA[AU=(Tang, H*) AND OG=(Indiana University*) NOT AU=(Tang, Hao OR Tang, Haiyang OR Tang, Huilin OR Tang, Hui-Hsuan OR Tang, Hong OR Tang, HT OR Tang, HY OR Tang, Hua OR Tang, HM, OR Tang, HL OR Tang, HB)]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
@@ -379,12 +379,12 @@
 <oldQuerySyntax></oldQuerySyntax>
 <search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[AU=(Tang, H*) AND OG=(Indiana University*) ]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Tang, H*) AND OG=(Indiana University*) NOT AU=(Tang, Hao OR Tang, Haiyang OR Tang, Huilin OR Tang, Hui-Hsuan OR Tang, Hong OR Tang, HT OR Tang, HY OR Tang, Hua OR Tang, HM, OR Tang, HL OR Tang, HB)]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[AU=(Tang, H*) AND OG=(Indiana University*) ]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Tang, H*) AND OG=(Indiana University*) NOT AU=(Tang, Hao OR Tang, Haiyang OR Tang, Huilin OR Tang, Hui-Hsuan OR Tang, Hong OR Tang, HT OR Tang, HY OR Tang, Hua OR Tang, HM, OR Tang, HL OR Tang, HB)]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
-<user_query_string_xml><Field><![CDATA[AU=(Tang, H*) AND OG=(Indiana University*)]]></Field></user_query_string_xml>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Tang, H*) AND OG=(Indiana University*) NOT AU=(Tang, Hao OR Tang, Haiyang OR Tang, Huilin OR Tang, Hui-Hsuan OR Tang, Hong OR Tang, HT OR Tang, HY OR Tang, Hua OR Tang, HM, OR Tang, HL OR Tang, HB)]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
 <ss_query_language><![CDATA[en]]></ss_query_language>
@@ -399,8 +399,8 @@
 <field_id></field_id>
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
-<user_query_string><![CDATA[AU=(Myers, S*) AND OG=(Indiana University* OR University of Toronto) NOT AU=(Myers, SL OR Myers, SS OR Myers, SP OR Myers, ST)]]></user_query_string>
-<user_timespan_string><![CDATA[input.tslimit.ALL]]></user_timespan_string>
+<user_query_string><![CDATA[AU=(Chung, Christina) AND OG=(Indiana University*)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -410,7 +410,7 @@
 <service_mode></service_mode>
 <query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[AU=(Myers, S*) AND OG=(Indiana University* OR University of Toronto) NOT AU=(Myers, SL OR Myers, SS OR Myers, SP OR Myers, ST) ]]></preparsed>
+<preparsed><![CDATA[AU=(Chung, Christina) AND OG=(Indiana University*)]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
@@ -418,12 +418,12 @@
 <oldQuerySyntax></oldQuerySyntax>
 <search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[AU=(Myers, S*) AND OG=(Indiana University* OR University of Toronto) NOT AU=(Myers, SL OR Myers, SS OR Myers, SP OR Myers, ST) ]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Chung, Christina) AND OG=(Indiana University*)]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[AU=(Myers, S*) AND OG=(Indiana University* OR University of Toronto) NOT AU=(Myers, SL OR Myers, SS OR Myers, SP OR Myers, ST) ]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Chung, Christina) AND OG=(Indiana University*)]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
-<user_query_string_xml><Field><![CDATA[AU=(Myers, S*) AND OG=(Indiana University* OR University of Toronto) NOT AU=(Myers, SL OR Myers, SS OR Myers, SP OR Myers, ST)]]></Field></user_query_string_xml>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Chung, Christina) AND OG=(Indiana University*)]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
 <ss_query_language><![CDATA[en]]></ss_query_language>
@@ -438,8 +438,8 @@
 <field_id></field_id>
 <tns_id>WOS</tns_id>
 <parsed_query_string><![CDATA[]]></parsed_query_string>
-<user_query_string><![CDATA[#11 OR #10 OR #9 OR #8 OR #7 OR #6 OR #5 OR #4 OR #3 OR #2 OR #1]]></user_query_string>
-<user_timespan_string><![CDATA[input.tslimit.ALL]]></user_timespan_string>
+<user_query_string><![CDATA[AU=(Leake, D*) AND OG=(Indiana University*) NOT AU=(Leake, DW)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
 <parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
 <user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
 <user_limits_string><![CDATA[]]></user_limits_string>
@@ -447,22 +447,256 @@
 <analysisHistory></analysisHistory>
 <application_data>
 <service_mode></service_mode>
-<query_desc>CombineSearches</query_desc>
+<query_desc>AdvancedSearch</query_desc>
 <query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
-<preparsed><![CDATA[#11 OR #10 OR #9 OR #8 OR #7 OR #6 OR #5 OR #4 OR #3 OR #2 OR #1]]></preparsed>
+<preparsed><![CDATA[AU=(Leake, D*) AND OG=(Indiana University*) NOT AU=(Leake, DW)]]></preparsed>
 <molecule><![CDATA[]]></molecule>
 <frag_codes><![CDATA[]]></frag_codes>
 <queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
 <query_syntax>3.3</query_syntax>
 <oldQuerySyntax></oldQuerySyntax>
-<search_mode>CombineSearches</search_mode>
+<search_mode>AdvancedSearch</search_mode>
 <colName></colName>
-<unparsedSearchInput><![CDATA[#11 OR #10 OR #9 OR #8 OR #7 OR #6 OR #5 OR #4 OR #3 OR #2 OR #1]]></unparsedSearchInput>
+<unparsedSearchInput><![CDATA[AU=(Leake, D*) AND OG=(Indiana University*) NOT AU=(Leake, DW)]]></unparsedSearchInput>
 <parsedSearchInput><![CDATA[]]></parsedSearchInput>
-<unparsedSearchNoLimits><![CDATA[#11 OR #10 OR #9 OR #8 OR #7 OR #6 OR #5 OR #4 OR #3 OR #2 OR #1]]></unparsedSearchNoLimits>
+<unparsedSearchNoLimits><![CDATA[AU=(Leake, D*) AND OG=(Indiana University*) NOT AU=(Leake, DW)]]></unparsedSearchNoLimits>
 <subtype></subtype>
-<options></options>
-<user_query_string_xml>#11 OR #10 OR #9 OR #8 OR #7 OR #6 OR #5 OR #4 OR #3 OR #2 OR #1</user_query_string_xml>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Leake, D*) AND OG=(Indiana University*) NOT AU=(Leake, DW)]]></Field></user_query_string_xml>
+<ss_lemmatization><![CDATA[On]]></ss_lemmatization>
+<ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
+<ss_query_language><![CDATA[en]]></ss_query_language>
+<isOneClickDaisyAuthor></isOneClickDaisyAuthor>
+<OneClickDaisyAuthorName></OneClickDaisyAuthorName>
+<relatedMetaData></relatedMetaData>
+<parentUT></parentUT>
+</application_data>
+</set>
+<set>
+<set_number>13</set_number>
+<field_id></field_id>
+<tns_id>WOS</tns_id>
+<parsed_query_string><![CDATA[]]></parsed_query_string>
+<user_query_string><![CDATA[AU=(Azad, Ariful) AND OG=(Indiana University*)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
+<parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
+<user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
+<user_limits_string><![CDATA[]]></user_limits_string>
+<refinedBy><![CDATA[]]></refinedBy>
+<analysisHistory></analysisHistory>
+<application_data>
+<service_mode></service_mode>
+<query_desc>AdvancedSearch</query_desc>
+<query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
+<preparsed><![CDATA[AU=(Azad, Ariful) AND OG=(Indiana University*)]]></preparsed>
+<molecule><![CDATA[]]></molecule>
+<frag_codes><![CDATA[]]></frag_codes>
+<queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
+<query_syntax>3.3</query_syntax>
+<oldQuerySyntax></oldQuerySyntax>
+<search_mode>AdvancedSearch</search_mode>
+<colName></colName>
+<unparsedSearchInput><![CDATA[AU=(Azad, Ariful) AND OG=(Indiana University*)]]></unparsedSearchInput>
+<parsedSearchInput><![CDATA[]]></parsedSearchInput>
+<unparsedSearchNoLimits><![CDATA[AU=(Azad, Ariful) AND OG=(Indiana University*)]]></unparsedSearchNoLimits>
+<subtype></subtype>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Azad, Ariful) AND OG=(Indiana University*)]]></Field></user_query_string_xml>
+<ss_lemmatization><![CDATA[On]]></ss_lemmatization>
+<ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
+<ss_query_language><![CDATA[en]]></ss_query_language>
+<isOneClickDaisyAuthor></isOneClickDaisyAuthor>
+<OneClickDaisyAuthorName></OneClickDaisyAuthorName>
+<relatedMetaData></relatedMetaData>
+<parentUT></parentUT>
+</application_data>
+</set>
+<set>
+<set_number>14</set_number>
+<field_id></field_id>
+<tns_id>WOS</tns_id>
+<parsed_query_string><![CDATA[]]></parsed_query_string>
+<user_query_string><![CDATA[AU=(Crandall, D*) AND OG=(Indiana University*)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
+<parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
+<user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
+<user_limits_string><![CDATA[]]></user_limits_string>
+<refinedBy><![CDATA[]]></refinedBy>
+<analysisHistory></analysisHistory>
+<application_data>
+<service_mode></service_mode>
+<query_desc>AdvancedSearch</query_desc>
+<query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
+<preparsed><![CDATA[AU=(Crandall, D*) AND OG=(Indiana University*)]]></preparsed>
+<molecule><![CDATA[]]></molecule>
+<frag_codes><![CDATA[]]></frag_codes>
+<queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
+<query_syntax>3.3</query_syntax>
+<oldQuerySyntax></oldQuerySyntax>
+<search_mode>AdvancedSearch</search_mode>
+<colName></colName>
+<unparsedSearchInput><![CDATA[AU=(Crandall, D*) AND OG=(Indiana University*)]]></unparsedSearchInput>
+<parsedSearchInput><![CDATA[]]></parsedSearchInput>
+<unparsedSearchNoLimits><![CDATA[AU=(Crandall, D*) AND OG=(Indiana University*)]]></unparsedSearchNoLimits>
+<subtype></subtype>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Crandall, D*) AND OG=(Indiana University*)]]></Field></user_query_string_xml>
+<ss_lemmatization><![CDATA[On]]></ss_lemmatization>
+<ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
+<ss_query_language><![CDATA[en]]></ss_query_language>
+<isOneClickDaisyAuthor></isOneClickDaisyAuthor>
+<OneClickDaisyAuthorName></OneClickDaisyAuthorName>
+<relatedMetaData></relatedMetaData>
+<parentUT></parentUT>
+</application_data>
+</set>
+<set>
+<set_number>15</set_number>
+<field_id></field_id>
+<tns_id>WOS</tns_id>
+<parsed_query_string><![CDATA[]]></parsed_query_string>
+<user_query_string><![CDATA[AU=(Ergun, F*) AND OG=(Indiana University*)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
+<parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
+<user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
+<user_limits_string><![CDATA[]]></user_limits_string>
+<refinedBy><![CDATA[]]></refinedBy>
+<analysisHistory></analysisHistory>
+<application_data>
+<service_mode></service_mode>
+<query_desc>AdvancedSearch</query_desc>
+<query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
+<preparsed><![CDATA[AU=(Ergun, F*) AND OG=(Indiana University*)]]></preparsed>
+<molecule><![CDATA[]]></molecule>
+<frag_codes><![CDATA[]]></frag_codes>
+<queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
+<query_syntax>3.3</query_syntax>
+<oldQuerySyntax></oldQuerySyntax>
+<search_mode>AdvancedSearch</search_mode>
+<colName></colName>
+<unparsedSearchInput><![CDATA[AU=(Ergun, F*) AND OG=(Indiana University*)]]></unparsedSearchInput>
+<parsedSearchInput><![CDATA[]]></parsedSearchInput>
+<unparsedSearchNoLimits><![CDATA[AU=(Ergun, F*) AND OG=(Indiana University*)]]></unparsedSearchNoLimits>
+<subtype></subtype>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Ergun, F*) AND OG=(Indiana University*)]]></Field></user_query_string_xml>
+<ss_lemmatization><![CDATA[On]]></ss_lemmatization>
+<ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
+<ss_query_language><![CDATA[en]]></ss_query_language>
+<isOneClickDaisyAuthor></isOneClickDaisyAuthor>
+<OneClickDaisyAuthorName></OneClickDaisyAuthorName>
+<relatedMetaData></relatedMetaData>
+<parentUT></parentUT>
+</application_data>
+</set>
+<set>
+<set_number>16</set_number>
+<field_id></field_id>
+<tns_id>WOS</tns_id>
+<parsed_query_string><![CDATA[]]></parsed_query_string>
+<user_query_string><![CDATA[AU=(Khardon, R*) AND OG=(Indiana University*)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
+<parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
+<user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
+<user_limits_string><![CDATA[]]></user_limits_string>
+<refinedBy><![CDATA[]]></refinedBy>
+<analysisHistory></analysisHistory>
+<application_data>
+<service_mode></service_mode>
+<query_desc>AdvancedSearch</query_desc>
+<query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
+<preparsed><![CDATA[AU=(Khardon, R*) AND OG=(Indiana University*)]]></preparsed>
+<molecule><![CDATA[]]></molecule>
+<frag_codes><![CDATA[]]></frag_codes>
+<queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
+<query_syntax>3.3</query_syntax>
+<oldQuerySyntax></oldQuerySyntax>
+<search_mode>AdvancedSearch</search_mode>
+<colName></colName>
+<unparsedSearchInput><![CDATA[AU=(Khardon, R*) AND OG=(Indiana University*)]]></unparsedSearchInput>
+<parsedSearchInput><![CDATA[]]></parsedSearchInput>
+<unparsedSearchNoLimits><![CDATA[AU=(Khardon, R*) AND OG=(Indiana University*)]]></unparsedSearchNoLimits>
+<subtype></subtype>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Khardon, R*) AND OG=(Indiana University*)]]></Field></user_query_string_xml>
+<ss_lemmatization><![CDATA[On]]></ss_lemmatization>
+<ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
+<ss_query_language><![CDATA[en]]></ss_query_language>
+<isOneClickDaisyAuthor></isOneClickDaisyAuthor>
+<OneClickDaisyAuthorName></OneClickDaisyAuthorName>
+<relatedMetaData></relatedMetaData>
+<parentUT></parentUT>
+</application_data>
+</set>
+<set>
+<set_number>17</set_number>
+<field_id></field_id>
+<tns_id>WOS</tns_id>
+<parsed_query_string><![CDATA[]]></parsed_query_string>
+<user_query_string><![CDATA[AU=(Williamson, D*) AND OG=(Indiana University*) NOT AU=(Williamson, DF)]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
+<parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
+<user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
+<user_limits_string><![CDATA[]]></user_limits_string>
+<refinedBy><![CDATA[]]></refinedBy>
+<analysisHistory></analysisHistory>
+<application_data>
+<service_mode></service_mode>
+<query_desc>AdvancedSearch</query_desc>
+<query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
+<preparsed><![CDATA[AU=(Williamson, D*) AND OG=(Indiana University*) NOT AU=(Williamson, DF)]]></preparsed>
+<molecule><![CDATA[]]></molecule>
+<frag_codes><![CDATA[]]></frag_codes>
+<queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
+<query_syntax>3.3</query_syntax>
+<oldQuerySyntax></oldQuerySyntax>
+<search_mode>AdvancedSearch</search_mode>
+<colName></colName>
+<unparsedSearchInput><![CDATA[AU=(Williamson, D*) AND OG=(Indiana University*) NOT AU=(Williamson, DF)]]></unparsedSearchInput>
+<parsedSearchInput><![CDATA[]]></parsedSearchInput>
+<unparsedSearchNoLimits><![CDATA[AU=(Williamson, D*) AND OG=(Indiana University*) NOT AU=(Williamson, DF)]]></unparsedSearchNoLimits>
+<subtype></subtype>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[AU=(Williamson, D*) AND OG=(Indiana University*) NOT AU=(Williamson, DF)]]></Field></user_query_string_xml>
+<ss_lemmatization><![CDATA[On]]></ss_lemmatization>
+<ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
+<ss_query_language><![CDATA[en]]></ss_query_language>
+<isOneClickDaisyAuthor></isOneClickDaisyAuthor>
+<OneClickDaisyAuthorName></OneClickDaisyAuthorName>
+<relatedMetaData></relatedMetaData>
+<parentUT></parentUT>
+</application_data>
+</set>
+<set>
+<set_number>18</set_number>
+<field_id></field_id>
+<tns_id>WOS</tns_id>
+<parsed_query_string><![CDATA[]]></parsed_query_string>
+<user_query_string><![CDATA[#17 OR #16 OR #15 OR #14 OR #13 OR #12 OR #11 OR #10 OR #9 OR #8 OR #7 OR #6 OR #5 OR #4 OR #3 OR #2 OR #1]]></user_query_string>
+<user_timespan_string><![CDATA[2000-2019]]></user_timespan_string>
+<parsed_dblimits_string><![CDATA[SCI SSCI AHCI ISTP ISSHP BSCI BHCI ESCI CCR IC]]></parsed_dblimits_string>
+<user_editions_string><![CDATA[SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC]]></user_editions_string>
+<user_limits_string><![CDATA[]]></user_limits_string>
+<refinedBy><![CDATA[]]></refinedBy>
+<analysisHistory></analysisHistory>
+<application_data>
+<service_mode></service_mode>
+<query_desc>AdvancedSearch</query_desc>
+<query_type>com.thomson.ts.framework.query.IGeneralQuery</query_type>
+<preparsed><![CDATA[#17 OR #16 OR #15 OR #14 OR #13 OR #12 OR #11 OR #10 OR #9 OR #8 OR #7 OR #6 OR #5 OR #4 OR #3 OR #2 OR #1]]></preparsed>
+<molecule><![CDATA[]]></molecule>
+<frag_codes><![CDATA[]]></frag_codes>
+<queryType>com.thomson.ts.framework.query.IGeneralQuery</queryType>
+<query_syntax>3.3</query_syntax>
+<oldQuerySyntax></oldQuerySyntax>
+<search_mode>AdvancedSearch</search_mode>
+<colName></colName>
+<unparsedSearchInput><![CDATA[#17 OR #16 OR #15 OR #14 OR #13 OR #12 OR #11 OR #10 OR #9 OR #8 OR #7 OR #6 OR #5 OR #4 OR #3 OR #2 OR #1]]></unparsedSearchInput>
+<parsedSearchInput><![CDATA[]]></parsedSearchInput>
+<unparsedSearchNoLimits><![CDATA[#17 OR #16 OR #15 OR #14 OR #13 OR #12 OR #11 OR #10 OR #9 OR #8 OR #7 OR #6 OR #5 OR #4 OR #3 OR #2 OR #1]]></unparsedSearchNoLimits>
+<subtype></subtype>
+<options>[]</options>
+<user_query_string_xml><Field><![CDATA[#17 OR #16 OR #15 OR #14 OR #13 OR #12 OR #11 OR #10 OR #9 OR #8 OR #7 OR #6 OR #5 OR #4 OR #3 OR #2 OR #1]]></Field></user_query_string_xml>
 <ss_lemmatization><![CDATA[On]]></ss_lemmatization>
 <ss_spellchecking><![CDATA[Suggest]]></ss_spellchecking>
 <ss_query_language><![CDATA[en]]></ss_query_language>

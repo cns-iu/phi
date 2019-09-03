@@ -1,0 +1,56 @@
+[
+  {
+    "op": "core/row-reorder",
+    "description": "Reorder rows",
+    "mode": "record-based",
+    "sorting": {
+      "criteria": [
+        {
+          "errorPosition": 1,
+          "caseSensitive": false,
+          "valueType": "string",
+          "column": "id",
+          "blankPosition": 2,
+          "reverse": false
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/blank-down",
+    "description": "Blank down cells in column id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "id"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column fullname",
+    "columnName": "fullname",
+    "keyColumnName": "id",
+    "separator": "|"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column fullname-revised",
+    "columnName": "fullname-revised",
+    "keyColumnName": "id",
+    "separator": "|"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column name",
+    "columnName": "name",
+    "keyColumnName": "id",
+    "separator": "|"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "description": "Join multi-valued cells in column name-revised",
+    "columnName": "name-revised",
+    "keyColumnName": "id",
+    "separator": "|"
+  }
+]

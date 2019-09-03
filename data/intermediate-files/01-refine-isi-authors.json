@@ -1,0 +1,38 @@
+[
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "Unique ID",
+      "Title",
+      "Authors",
+      "Authors (Full Names)"
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Authors-revised at index 2 based on column Authors using expression grel:value",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "Authors-revised",
+    "columnInsertIndex": 2,
+    "baseColumnName": "Authors",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Authors (Full Names)-revised at index 4 based on column Authors (Full Names) using expression grel:value",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "Authors (Full Names)-revised",
+    "columnInsertIndex": 4,
+    "baseColumnName": "Authors (Full Names)",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  }
+]
