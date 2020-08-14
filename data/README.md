@@ -20,7 +20,7 @@ You can export from the results page by clicking the dropdown box arrow and sele
 
 ### Data reformatting
 
-Load the data file into Sci2 as ISI format, and save the processed results as a csv ([wos-extract.csv](intermediate-files/wos-extract.csv)).
+Load the data file into Sci2 as ISI format, and save the processed unique isi results as a csv ([wos-extract.csv](intermediate-files/wos-extract.csv)).
 
 Next, in Open Refine create a new project using the [wos-extract.csv](intermediate-files/wos-extract.csv) file. In the project, apply the set of processing steps found in [01-refine-isi-authors.json](intermediate-files/01-refine-isi-authors.json), and save results as, [wos-extract.isi_author.csv](intermediate-files/wos-extract.isi_author.csv).
 
