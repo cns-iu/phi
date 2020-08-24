@@ -2,7 +2,7 @@
 
 Data was collected for 17 primary investigators awarded a grant as part of the Precision Health Initiative (PHI) Grand Challenge grant process.
 
-`Data Last Updated 08/20/2019`
+`Data Last Updated 08/22/2020`
 
 ## Data Collection Method
 
