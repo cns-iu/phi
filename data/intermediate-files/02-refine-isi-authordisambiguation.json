@@ -1,0 +1,1540 @@
+[
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "Unique ID",
+      "Authors",
+      "Authors (Full Names)"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Unique ID",
+    "newColumnName": "id",
+    "description": "Rename column Unique ID to id"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Authors",
+    "newColumnName": "name",
+    "description": "Rename column Authors to name"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Authors (Full Names)",
+    "newColumnName": "fullname",
+    "description": "Rename column Authors (Full Names) to fullname"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "name",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "name-revised",
+    "columnInsertIndex": 2,
+    "description": "Create column name-revised at index 2 based on column name using expression grel:value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "fullname",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "fullname-revised",
+    "columnInsertIndex": 4,
+    "description": "Create column fullname-revised at index 4 based on column fullname using expression grel:value"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "name",
+    "keyColumnName": "id",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column name"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "name-revised",
+    "keyColumnName": "id",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column name-revised"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "fullname",
+    "keyColumnName": "id",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column fullname"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "fullname-revised",
+    "keyColumnName": "id",
+    "mode": "separator",
+    "separator": "|",
+    "regex": false,
+    "description": "Split multi-valued cells in column fullname-revised"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "id",
+    "description": "Fill down cells in column id"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "fox, g",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fox, Geoffrey Charles"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fox, Geoffrey C"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "fox, g",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fox, Geoffrey C."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fox, Geoffrey C"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "fox, g",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fox, Geoffrey"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fox, Geoffrey C"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "fox, g",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fox, GC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fox, Geoffrey C"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "fox, g",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fox, G. C."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fox, Geoffrey C"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "fox, g",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fox, G"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fox, Geoffrey C"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "fox, g",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fox, G."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fox, Geoffrey C"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "fox, g",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fox, Geofftey"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fox, Geoffrey C"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "hahn, m",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hahn, MW"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hahn, Matthew W"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "hahn, m",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hahn, Matthew W."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hahn, Matthew W"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "hahn, m",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hahn, M."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hahn, Matthew W"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "hahn, m",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hahn, Matthew"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hahn, Matthew W"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "tang, h",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tang, HX"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tang, Haixu"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "tang, h",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tang, H."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tang, Haixu"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "borner",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Borner, K"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Borner, Katy"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "boerner",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Boerner, Katy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Borner, Katy"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "boerner",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Boerner, K."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Borner, Katy"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "crandall",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Crandall, David"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Crandall, David J"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "crandall",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Crandall, David J."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Crandall, David J"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "connelly, k",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Connelly, Katherine H."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Connelly, Kay H"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "connelly, k",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Connelly, Kay H."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Connelly, Kay H"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "connelly, k",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Connelly, Kay"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Connelly, Kay H"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "connelly, k",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Connelly, K"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Connelly, Kay H"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "connelly, k",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Connelly, K."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Connelly, Kay H"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "connelly, k",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Connelly, KH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Connelly, Kay H"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "leake",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Leake, David"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leake, David B"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "leake",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Leake, DB"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leake, David B"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "leake",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Leake, David B."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leake, David B"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "leake",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Leake, D"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leake, David B"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "sahinalp",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sahinalp, Cenk"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sahinalp, Cenk S"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "sahinalp",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sahinalp, Cenk S."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sahinalp, Cenk S"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "sahinalp",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sahinalp, S. Cenk"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sahinalp, Cenk S"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "natarajan",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Natarajan, Srimam"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Natarajan, Sriraam"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "natarajan",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Natarajan, S"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Natarajan, Sriraam"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "siek",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Siek, Katie A."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Siek, Katie A"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "siek",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Siek, Katie"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Siek, Katie A"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "siek",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Siek, KA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Siek, Katie A"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "williamson",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Williamson, Donald S."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Williamson, Donald S"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name-revised",
+          "columnName": "name-revised",
+          "query": "fox",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "name-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fox, G"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fox, GC"
+      }
+    ],
+    "description": "Mass edit cells in column name-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name-revised",
+          "columnName": "name-revised",
+          "query": "hahn, m",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "name-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Hahn, M"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Hahn, MW"
+      }
+    ],
+    "description": "Mass edit cells in column name-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name-revised",
+          "columnName": "name-revised",
+          "query": "tang, h",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "name-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tang, H"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tang, HX"
+      }
+    ],
+    "description": "Mass edit cells in column name-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name-revised",
+          "columnName": "name-revised",
+          "query": "crandall",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "name-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Crandall, D"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Crandall, DJ"
+      }
+    ],
+    "description": "Mass edit cells in column name-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name-revised",
+          "columnName": "name-revised",
+          "query": "connelly",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "name-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Connelly, K"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Connelly, KH"
+      }
+    ],
+    "description": "Mass edit cells in column name-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name-revised",
+          "columnName": "name-revised",
+          "query": "leake",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "name-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Leake, D"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leake, DB"
+      }
+    ],
+    "description": "Mass edit cells in column name-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name-revised",
+          "columnName": "name-revised",
+          "query": "siek",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "name-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Siek, K"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Siek, KA"
+      }
+    ],
+    "description": "Mass edit cells in column name-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name-revised",
+          "columnName": "name-revised",
+          "query": "sahinalp",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "name-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sahinalp, C"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sahinalp, CS"
+      }
+    ],
+    "description": "Mass edit cells in column name-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "name-revised",
+          "columnName": "name-revised",
+          "query": "sahinalp",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "name-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sahinalp, SC"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sahinalp, CS"
+      }
+    ],
+    "description": "Mass edit cells in column name-revised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "fullname-revised",
+          "columnName": "fullname-revised",
+          "query": "tang, hai",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "fullname-revised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Tang, Haixu"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tang, Haixu X"
+      }
+    ],
+    "description": "Mass edit cells in column fullname-revised"
+  }
+]
