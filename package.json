@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:release": "ng build --prod --base-href=./",
-    "build:database": "cns-pubvis-loader data/wos-extract.isi data/wos-extract.isi_author-disambiguation.csv data/wos-extract.isi_full-layout.gexf src/assets/database.json",
+    "build:database": "NODE_OPTIONS='--max-old-space-size=4096' cns-pubvis-loader data/wos-extract.isi data/wos-extract.isi_author-disambiguation.csv data/wos-extract.isi_full-layout.gexf src/assets/database.json",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
