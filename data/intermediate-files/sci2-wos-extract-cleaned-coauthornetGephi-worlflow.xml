@@ -1,1 +1,78 @@
-<?xml version="1.0" ?><org.cishell.reference.gui.workflow.controller.WorkflowSaver><currentWorkflow class="org.cishell.reference.gui.workflow.model.NormalWorkflow"><name>Workflow 1</name><id>1</id><lastCreatedID>4</lastCreatedID><itemMap><entry><long>1</long><org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem><name>Load...</name><internalId>1</internalId><parameters class="hashtable"></parameters><nameToId class="hashtable"></nameToId><pid>org.cishell.reference.gui.persistence.load.FileLoadAlgorithm</pid></org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem></entry><entry><long>2</long><org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem><name>Extract Co-Author Network</name><internalId>2</internalId><parameters class="hashtable"><entry><string>fileFormat</string><string>isi</string></entry></parameters><nameToId class="hashtable"><entry><string>File Format</string><string>fileFormat</string></entry></nameToId><pid>edu.iu.nwb.analysis.extractcoauthorship</pid></org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem></entry><entry><long>3</long><org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem><name>MST-Pathfinder Network Scaling</name><internalId>3</internalId><parameters class="hashtable"><entry><string>weighttypecolumn</string><string>DISSIMILARITY</string></entry><entry><string>weightcolumn</string><string>Unweighted</string></entry></parameters><nameToId class="hashtable"><entry><string>Weight Attribute measures</string><string>weighttypecolumn</string></entry><entry><string>Edge Weight Attribute</string><string>weightcolumn</string></entry></nameToId><pid>edu.iu.nwb.preprocessing.pathfindernetworkscaling.mst.MSTPathfinderNetworkScalingAlgorithm</pid></org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem></entry><entry><long>4</long><org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem><name>Gephi</name><internalId>4</internalId><parameters class="hashtable"></parameters><nameToId class="hashtable"></nameToId><pid>edu.iu.nwb.visualization.network.gephi.GephiAlgorithm</pid></org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem></entry></itemMap></currentWorkflow></org.cishell.reference.gui.workflow.controller.WorkflowSaver>
+<?xml version="1.0" encoding="UTF-8"?>
+<org.cishell.reference.gui.workflow.controller.WorkflowSaver>
+   <currentWorkflow class="org.cishell.reference.gui.workflow.model.NormalWorkflow">
+      <name>Workflow 1</name>
+      <id>1</id>
+      <lastCreatedID>4</lastCreatedID>
+      <itemMap>
+         <entry>
+            <long>1</long>
+            <org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem>
+               <name>Load...</name>
+               <internalId>1</internalId>
+               <parameters class="hashtable" />
+               <nameToId class="hashtable" />
+               <pid>org.cishell.reference.gui.persistence.load.FileLoadAlgorithm</pid>
+            </org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem>
+         </entry>
+         <entry>
+            <long>2</long>
+            <org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem>
+               <name>Extract Co-Author Network</name>
+               <internalId>2</internalId>
+               <parameters class="hashtable">
+                  <entry>
+                     <string>fileFormat</string>
+                     <string>isi</string>
+                  </entry>
+               </parameters>
+               <nameToId class="hashtable">
+                  <entry>
+                     <string>File Format</string>
+                     <string>fileFormat</string>
+                  </entry>
+               </nameToId>
+               <pid>edu.iu.nwb.analysis.extractcoauthorship</pid>
+            </org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem>
+         </entry>
+         <entry>
+            <long>3</long>
+            <org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem>
+               <name>MST-Pathfinder Network Scaling</name>
+               <internalId>3</internalId>
+               <parameters class="hashtable">
+                  <entry>
+                     <string>weighttypecolumn</string>
+                     <string>DISSIMILARITY</string>
+                  </entry>
+                  <entry>
+                     <string>weightcolumn</string>
+                     <string>Unweighted</string>
+                  </entry>
+               </parameters>
+               <nameToId class="hashtable">
+                  <entry>
+                     <string>Weight Attribute measures</string>
+                     <string>weighttypecolumn</string>
+                  </entry>
+                  <entry>
+                     <string>Edge Weight Attribute</string>
+                     <string>weightcolumn</string>
+                  </entry>
+               </nameToId>
+               <pid>edu.iu.nwb.preprocessing.pathfindernetworkscaling.mst.MSTPathfinderNetworkScalingAlgorithm</pid>
+            </org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem>
+         </entry>
+         <entry>
+            <long>4</long>
+            <org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem>
+               <name>Gephi</name>
+               <internalId>4</internalId>
+               <parameters class="hashtable" />
+               <nameToId class="hashtable" />
+               <pid>edu.iu.nwb.visualization.network.gephi.GephiAlgorithm</pid>
+            </org.cishell.reference.gui.workflow.model.AlgorithmWorkflowItem>
+         </entry>
+      </itemMap>
+   </currentWorkflow>
+</org.cishell.reference.gui.workflow.controller.WorkflowSaver>
